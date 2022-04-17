@@ -43,7 +43,6 @@ h1 {
 .button:hover {
     background: rgb(150, 148, 148);
     color: rgb(0, 0, 0);
-    padding: 10px;
 }
 .button {
     padding: 5px;
