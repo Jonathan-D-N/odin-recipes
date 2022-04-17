@@ -1,0 +1,46 @@
+/* styles.css */
+
+h1 {
+    text-align: center;
+}
+
+.chef {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chicken{
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waffle{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apple{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.recipe-links {
+    text-align: center;
+}
+
+body {
+    background-color: rgba(29, 32, 32, 0.952);
+}
