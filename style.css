@@ -1,10 +1,23 @@
 /* styles.css */
 
-h1 {
+html {
+    box-sizing: border-box;
     text-align: center;
+    color: white;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #161819;
 }
 
-.chef {
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.chef, .chicken, .waffle, .apple {
     height: auto;
     width: 400px;
     display: block;
@@ -13,42 +26,27 @@ h1 {
 }
 
 .chicken{
-    height: auto;
     width: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .waffle{
-    height: auto;
     width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .apple{
-    height: auto;
     width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.recipe-links {
-    text-align: center;
+ul, ol {
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button:hover {
     background: rgb(150, 148, 148);
     color: rgb(0, 0, 0);
 }
-.button {
+button {
     padding: 5px;
-}
-
-
-body {
-    background-color: rgba(29, 32, 32, 0.952);
 }
