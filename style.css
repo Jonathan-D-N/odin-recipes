@@ -1,12 +1,14 @@
 /* styles.css */
 
 html {
-    box-sizing: border-box;
-    text-align: center;
     color: white;
+    text-align: center;
 }
 *, *::before, *::after {
     box-sizing: inherit;
+}
+* {
+    box-sizing: border-box;
 }
 body {
     background-color: #161819;
@@ -43,10 +45,17 @@ ul, ol {
     margin-left: auto;
 }
 
+button {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
 .button:hover {
     background: rgb(150, 148, 148);
     color: rgb(0, 0, 0);
 }
-button {
-    padding: 5px;
+a {
+    text-decoration: none;
 }
